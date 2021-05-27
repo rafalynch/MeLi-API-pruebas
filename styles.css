@@ -1,0 +1,92 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.header {
+  background-color: #fff159;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar {
+  height: 44px;
+  width: 375px;
+  border-radius: 4px;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.searchButton {
+  height: 44px;
+  width: 121px;
+  left: 614px;
+  top: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+
+.searchCounter {
+  margin-left: 100px;
+}
+
+.productBox {
+  text-decoration: inherit;
+  color: inherit;
+  max-width: 1000px;
+  height: 200px;
+  padding: 15px;
+  margin: 10px auto;
+  border: solid;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  align-content: center;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.productImage {
+  height: 128px;
+  width: auto;
+  align-self: center;
+  margin: auto;
+}
+.productInfo {
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr;
+  padding: none;
+}
+
+.productName {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.productCondition {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.productSold {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  align-self: end;
+}
+
+.productPrice {
+  align-self: start;
+  justify-self: right;
+  font-size: 28px;
+  color: #5791a4;
+}
